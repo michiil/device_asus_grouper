@@ -32,3 +32,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 DEVICE_PACKAGE_OVERLAYS := \
     device/asus/grouper/overlay
+
+PRODUCT_PACKAGES += \
+PowerEventMgr
