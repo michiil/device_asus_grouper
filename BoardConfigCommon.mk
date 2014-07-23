@@ -45,7 +45,7 @@ BOARD_FLASH_BLOCK_SIZE := 4096
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/asus/grouper
-TARGET_KERNEL_CONFIG := oxydo_defconfig
+TARGET_KERNEL_CONFIG := kangaroo_defconfig
 TARGET_KERNEL_CUSTOM_TOOLCHAIN := linaro-4.7-13.04/bin/arm-linux-gnueabihf-
 
 # Wifi related defines
