@@ -1,0 +1,13 @@
+#!/system/bin/sh
+# Load Easycap modules
+insmod /system/lib/modules/qvideodev.ko
+insmod /system/lib/modules/qv4l2-common.ko
+insmod /system/lib/modules/qvideobuf2-core.ko
+insmod /system/lib/modules/qvideobuf2-memops.ko
+insmod /system/lib/modules/qvideobuf2-vmalloc.ko
+insmod /system/lib/modules/saa7115.ko
+insmod /system/lib/modules/stk1160.ko
+insmod /system/lib/modules/smi2021.ko
+insmod /system/lib/modules/usbtv.ko
+insmod /system/lib/modules/tveeprom.ko
+insmod /system/lib/modules/em28xx.ko
