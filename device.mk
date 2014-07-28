@@ -61,3 +61,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     setup_fs \
     e2fsck
+
+# PowerEventMgr
+PRODUCT_PACKAGES += \
+    PowerEventMgr
